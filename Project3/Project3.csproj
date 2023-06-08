@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08A31A86-2064-4CFF-915E-41466403DA9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project3</RootNamespace>
+    <AssemblyName>Project3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BASIC\Luong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASIC\Luong.Designer.cs">
+      <DependentUpon>Luong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLASS\DGVPrinter.cs" />
+    <Compile Include="QUANLY\IngrediantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUANLY\IngrediantForm.Designer.cs">
+      <DependentUpon>IngrediantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLY\CalenderManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUANLY\CalenderManager.Designer.cs">
+      <DependentUpon>CalenderManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLASS\Bill.cs" />
+    <Compile Include="CLASS\Food.cs" />
+    <Compile Include="CUSTOMER\MainFormGuest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMER\MainFormGuest.Designer.cs">
+      <DependentUpon>MainFormGuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMER\OrderFoodForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMER\OrderFoodForm.Designer.cs">
+      <DependentUpon>OrderFoodForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLY\AddFoodForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUANLY\AddFoodForm.Designer.cs">
+      <DependentUpon>AddFoodForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BASIC\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASIC\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BASIC\ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASIC\ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BASIC\InformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASIC\InformationForm.Designer.cs">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NHANVIEN\Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NHANVIEN\Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NHANVIEN\EditRemoveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NHANVIEN\EditRemoveForm.Designer.cs">
+      <DependentUpon>EditRemoveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLY\ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUANLY\ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BASIC\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASIC\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLASS\MyDB.cs" />
+    <Compile Include="CLASS\Nhanvien.cs" />
+    <Compile Include="CLASS\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BASIC\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASIC\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLASS\Table.cs" />
+    <Compile Include="CUSTOMER\TableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMER\TableForm.Designer.cs">
+      <DependentUpon>TableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMER\VerifyManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMER\VerifyManagerForm.Designer.cs">
+      <DependentUpon>VerifyManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUANLY\StaticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUANLY\StaticForm.Designer.cs">
+      <DependentUpon>StaticForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BASIC\Luong.resx">
+      <DependentUpon>Luong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUANLY\CalenderManager.resx">
+      <DependentUpon>CalenderManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER\MainFormGuest.resx">
+      <DependentUpon>MainFormGuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER\OrderFoodForm.resx">
+      <DependentUpon>OrderFoodForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUANLY\AddFoodForm.resx">
+      <DependentUpon>AddFoodForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASIC\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASIC\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASIC\InformationForm.resx">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NHANVIEN\Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NHANVIEN\EditRemoveForm.resx">
+      <DependentUpon>EditRemoveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASIC\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="BASIC\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUANLY\IngrediantForm.resx">
+      <DependentUpon>IngrediantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUANLY\ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER\TableForm.resx">
+      <DependentUpon>TableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER\VerifyManagerForm.resx">
+      <DependentUpon>VerifyManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUANLY\StaticForm.resx">
+      <DependentUpon>StaticForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5e38f50b7d729ae6c47f617d_Food House Logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

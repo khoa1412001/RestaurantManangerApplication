@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project3.Bill" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAEAIACQAAAAAAAAAAAABACAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>CLASS\Bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DGVPrinterHelper.DGVPrinter" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>3l8qd9+X8t/kaFBjS+oO7skhbCrxPjww/j3/2N2C1m8=</HashCode>
+      <FileName>CLASS\DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.Food" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQBAAgAAAACAAACAAAgAEAAAAEEAAMQAA=</HashCode>
+      <FileName>CLASS\Food.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.MyDB" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAQAAAAAQAAAAAAAAABAAAAA=</HashCode>
+      <FileName>CLASS\MyDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.Nhanvien" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQIAAAAAAAAEAEAEEAAAQAAIAAIAGAAAAAA=</HashCode>
+      <FileName>CLASS\Nhanvien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.Program" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CLASS\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.Table" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACQAAAAAAAAAAQAAAAAEAAIAAAAAAAAgAA=</HashCode>
+      <FileName>CLASS\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.NHANVIEN.Calendar" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wAAAAgAACAAABAAAACAAAACAAAAgAA/AAAAwI8fQDA=</HashCode>
+      <FileName>NHANVIEN\Calendar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.NHANVIEN.EditRemoveForm" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4AAFAAIBgCAgCFABIACgAABCAAAAEIBAAAAAEQAFAAU=</HashCode>
+      <FileName>NHANVIEN\EditRemoveForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.MainFormGuest" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAQAECQAwBAQJEiAAAACIAgGAgAgAFAAAQBAAAQ=</HashCode>
+      <FileName>CUSTOMER\MainFormGuest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.OrderFoodForm" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECQQwAAQIACAAAACAAgkAAAAAAAgBAAAIAQ=</HashCode>
+      <FileName>CUSTOMER\OrderFoodForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.TableForm" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUACIAAACQAQFgAIkCAAAACIAgEIgAgEAAAAQAAAAQ=</HashCode>
+      <FileName>CUSTOMER\TableForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.VerifyManagerForm" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAARQAAACABAACAAAEAAAAAQAAAAIQAAA=</HashCode>
+      <FileName>CUSTOMER\VerifyManagerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.RegisterForm" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8gABAAAhACAgCBABIAigIABDAAAAEIBAAQAAEQAFBAQ=</HashCode>
+      <FileName>BASIC\RegisterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.MainForm" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZiQECAAgACQAAgAQIAiQEAQDgYACsAQgABAKAABUAAQ=</HashCode>
+      <FileName>BASIC\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.BASIC.Luong" Collapsed="true">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAgAgAAAAAAAAIABAAA=</HashCode>
+      <FileName>BASIC\Luong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.Login" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAABAACACABAASkBAAAAAAAQAAAAJAAAA=</HashCode>
+      <FileName>BASIC\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.ChangePasswordForm" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAgRAQAACAAIACAAEAAAAAAAAIAAAgAAA=</HashCode>
+      <FileName>BASIC\ChangePasswordForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.InformationForm" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAACIwCBABAACgAABCAAAAEABAAAAAEQAFAAA=</HashCode>
+      <FileName>BASIC\InformationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.AddFoodForm" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgKBACAAABEAIBKUAAACAAAAAAAgAAAAAABAAgY=</HashCode>
+      <FileName>QUANLY\AddFoodForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.CalenderManager" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wABAAAAACAAABAAAACAAAACAAAAgAA/AAAAwI8fQDA=</HashCode>
+      <FileName>QUANLY\CalenderManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.IngrediantForm" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgCAYCAAABAAAACAAABCAAAAAAEwAAAAAQBAAAA=</HashCode>
+      <FileName>QUANLY\IngrediantForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.ManagerForm" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGMAiKAQCJQBNEAABKUAAZCAAhAAMAwAEkAgABhAgg=</HashCode>
+      <FileName>QUANLY\ManagerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project3.QUANLY.StaticForm" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCQAAAAAADSAAAACAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QUANLY\StaticForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
